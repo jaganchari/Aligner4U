@@ -474,10 +474,6 @@ ul {
                     line-height: 30px;
                     font-weight: 500;
                     text-transform: capitalize;
-                    // -moz-transition: all 0.3s ease-in-out;
-                    // -webkit-transition: all 0.3s ease-in-out;
-                    // -ms-transition: all 0.3s ease-in-out;
-                    // transition: all 0.3s ease-in-out;
                     &:hover,
                     &.active {
                         color: $primary-1;
@@ -527,10 +523,6 @@ ul {
                             text-transform: capitalize;
                             color: #fff;
                             text-align: left;
-                            // -moz-transition: all 0.3s ease-in-out;
-                            // -webkit-transition: all 0.3s ease-in-out;
-                            // -ms-transition: all 0.3s ease-in-out;
-                            // transition: all 0.3s ease-in-out;
                             &:hover {
                                 color: $primary-1;
                             }
@@ -643,6 +635,11 @@ ul {
     &.pink-head {
         &:before {
             background-color: #e93893;
+        }
+    }
+    &.blue-head {
+        &:before {
+            background-color: #26abe3;
         }
     }
     .section-header {

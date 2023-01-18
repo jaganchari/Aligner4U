@@ -12298,6 +12298,10 @@ ul {
   background-color: #e93893;
 }
 
+.sec-title-four.blue-head:before {
+  background-color: #26abe3;
+}
+
 .sec-title-four .section-header {
   display: block;
   font-size: 40px;
